@@ -9,12 +9,11 @@ import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Nav from "./components/Nav";
-import { StoreProvider } from "./utils/GlobalState";
-import Success from "./pages/Success";
+import Success from "./pages/Sucess";
 // redux hook and store
 import { Provider } from 'react-redux';
 import store from './redux/store';
-//import OrderHistory from "./pages/OrderHistory";
+import OrderHistory from "./pages/OrderHistory";
 
 const client = new ApolloClient({
   request: (operation) => {
