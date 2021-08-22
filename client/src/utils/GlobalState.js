@@ -1,3 +1,6 @@
+// Removed in favor of redux
+
+/*
 import React, { createContext, useContext } from "react";
 import { useProductReducer } from './reducers'
 
@@ -21,3 +24,5 @@ const useStoreContext = () => {
 };
 
 export { StoreProvider, useStoreContext };
+*/
+
